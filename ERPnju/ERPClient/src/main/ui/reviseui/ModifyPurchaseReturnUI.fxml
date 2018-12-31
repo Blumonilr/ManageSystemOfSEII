@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.reviseui.ModifyPurchaseReturnController">
+   <children>
+      <ImageView fitHeight="725.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/purchase/purchasereturn_pane.png" />
+         </image>
+      </ImageView>
+    <AnchorPane layoutX="44.0" layoutY="58.0" minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+      <TabPane layoutX="651.0" layoutY="48.0" prefHeight="650.0" prefWidth="350.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+         <Tab text="商品信息">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <AnchorPane fx:id="goodsPane" prefHeight="570.0" prefWidth="350.0" />
+                        <Label layoutX="106.0" layoutY="575.0" text="搜索" />
+                        <Label layoutX="257.0" layoutY="575.0" text="添加" />
+                        <JFXButton layoutX="74.0" layoutY="570.0" onAction="#onSearch" prefHeight="30.0" prefWidth="32.0" stylesheets="@../util/searchchoose.css" text=" " />
+                        <JFXButton layoutX="216.0" layoutY="570.0" onAction="#onAdd" prefHeight="30.0" prefWidth="32.0" stylesheets="@../util/searchchoose.css" text=" " />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="客户信息">
+            <content>
+              <AnchorPane fx:id="clientPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="80.0" layoutY="573.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/style_2/搜索.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="220.0" layoutY="573.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../resources/style_2/添加.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="110.0" layoutY="578.0" text="搜索" />
+                        <Label layoutX="257.0" layoutY="578.0" text="添加" />
+                        <JFXButton layoutX="79.0" layoutY="573.0" onAction="#onSearchClient" prefHeight="30.0" prefWidth="32.0" text=" " />
+                        <JFXButton layoutX="219.0" layoutY="573.0" onAction="#onAddClient" prefHeight="30.0" prefWidth="32.0" text=" " />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <AnchorPane fx:id="buttons" layoutY="654.0" prefHeight="58.0" prefWidth="650.0">
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="100.0" layoutY="7.0" onAction="#modify" ripplerFill="#3d11b8" text="确认修改" underline="true" />
+            <JFXButton buttonType="RAISED" layoutX="450.0" layoutY="7.0" onAction="#onClear" prefHeight="30.0" prefWidth="80.0" ripplerFill="#5350e8" text="清空内容" underline="true" />
+         </children>
+      </AnchorPane>
+      <ScrollPane hbarPolicy="NEVER" layoutY="48.0" prefHeight="605.0" prefWidth="650.0" vbarPolicy="ALWAYS">
+         <content>
+            <AnchorPane prefHeight="800.0" prefWidth="630.0">
+               <children>
+                  <ImageView fitHeight="800.0" fitWidth="630.0" onMouseEntered="#onInit" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/purchase/purchasereceipt.png" />
+                     </image>
+                  </ImageView>
+                  <ScrollPane layoutX="19.0" layoutY="207.0" prefHeight="415.0" prefWidth="590.0">
+                     <content>
+                        <TableView fx:id="table" editable="true" prefHeight="407.0" prefWidth="590.0">
+                          <columns>
+                            <TableColumn fx:id="goodsId" prefWidth="85.0" text="商品编号" />
+                            <TableColumn fx:id="goodsName" text="商品名称" />
+                              <TableColumn fx:id="goodsXh" prefWidth="75.0" text="型号" />
+                              <TableColumn fx:id="goodsAmount" prefWidth="75.0" text="数量" />
+                              <TableColumn fx:id="goodsPrice" prefWidth="75.0" text="单价" />
+                              <TableColumn fx:id="subTotal" prefWidth="75.0" text="金额" />
+                              <TableColumn fx:id="subNote" prefWidth="120.0" text="备注" />
+                          </columns>
+                        </TableView>
+                     </content>
+                  </ScrollPane>
+                  <Label fx:id="total" layoutX="504.0" layoutY="632.0" prefHeight="23.0" prefWidth="126.0" />
+                  <TextArea fx:id="note" layoutX="70.0" layoutY="690.0" prefHeight="80.0" prefWidth="500.0" />
+                  <JFXTextField fx:id="receiptId" editable="false" layoutX="132.0" layoutY="3.0" prefHeight="30.0" prefWidth="317.0" />
+                  <JFXTextField fx:id="stockId" layoutX="132.0" layoutY="81.0" prefHeight="30.0" prefWidth="317.0" />
+                  <JFXTextField fx:id="clientId" layoutX="132.0" layoutY="42.0" prefHeight="30.0" prefWidth="317.0" />
+                  <JFXTextField fx:id="operatorId" editable="false" layoutX="132.0" layoutY="123.0" prefHeight="30.0" prefWidth="317.0" />
+               </children>
+            </AnchorPane>
+         </content></ScrollPane>
+   </children>
+</AnchorPane>

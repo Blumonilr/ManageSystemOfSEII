@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.strategyui.TotalNewStrategyController">
+   <children>
+      <AnchorPane layoutY="-3.0" prefHeight="750.0" prefWidth="1000.0">
+         <children>
+            <ScrollPane layoutY="48.0" prefHeight="604.0" prefWidth="566.0">
+               <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="788.0" prefWidth="580.0">
+                     <children>
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="10.0" prefHeight="30.0" prefWidth="69.0" text="编号" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="94.0" prefHeight="30.0" prefWidth="69.0" text="最低总价" />
+                        <Label fx:id="id" layoutX="83.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="这里是编号" />
+                        <MenuButton fx:id="StrategyType" layoutX="18.0" layoutY="135.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="190.0" text="选择促销策略类型">
+                          <items>
+                            <MenuItem fx:id="gift" mnemonicParsing="false" onAction="#setGiftAnchorPane" text="赠品" />
+                              <MenuItem fx:id="Discount" mnemonicParsing="false" onAction="#setDiscountAnchorPane" text="折扣" />
+                          </items>
+                        </MenuButton>
+                        <AnchorPane fx:id="area" layoutY="195.0" prefHeight="542.0" prefWidth="548.0" />
+                        <DatePicker fx:id="start" layoutX="298.0" layoutY="40.0" showWeekNumbers="true" />
+                        <DatePicker fx:id="end" layoutX="298.0" layoutY="90.0" showWeekNumbers="true" />
+                        <JFXTextField fx:id="leastTotal" layoutX="85.0" layoutY="90.0" prefHeight="30.0" prefWidth="98.0" />
+                        <Label alignment="CENTER" layoutX="214.0" layoutY="40.0" prefHeight="30.0" prefWidth="68.0" text="起始时间" />
+                        <Label alignment="CENTER" layoutX="214.0" layoutY="90.0" prefHeight="30.0" prefWidth="68.0" text="结束时间" />
+                     </children></AnchorPane>
+               </content>
+            </ScrollPane>
+            <Label alignment="CENTER" layoutX="36.0" layoutY="4.0" prefHeight="44.0" prefWidth="137.0" text="促销策略" textFill="#220de4">
+               <font>
+                  <Font size="26.0" />
+               </font></Label>
+            <TabPane layoutX="583.0" layoutY="48.0" prefHeight="594.0" prefWidth="416.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="Goods" text="商品列表">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </Tab>
+                <Tab fx:id="Clients" text="客户列表">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+            <Button fx:id="add" layoutX="828.0" layoutY="655.0" mnemonicParsing="false" onMouseClicked="#add" prefHeight="30.0" prefWidth="80.0" stylesheets="@../util/prettybtn.css" text="添加" />
+            <Button fx:id="search" layoutX="642.0" layoutY="655.0" mnemonicParsing="false" onAction="#searchGoods" prefHeight="30.0" prefWidth="80.0" stylesheets="@../util/prettybtn.css" text="搜索" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="confirm" layoutX="100.0" layoutY="664.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="98.0" stylesheets="@../util/receipt.css" text="确认" />
+      <Button fx:id="cancel" layoutX="350.0" layoutY="665.0" mnemonicParsing="false" onAction="#cancel" prefHeight="30.0" prefWidth="98.0" stylesheets="@../util/receipt.css" text="取消" />
+   </children>
+</AnchorPane>

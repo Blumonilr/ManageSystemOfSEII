@@ -1,0 +1,5 @@
+.tab-pane{
+    -fx-border-style:hidden hidden hidden solid;
+    -fx-border-color: #e1e2e5;
+    -fx-border-width:1pt;
+}

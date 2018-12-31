@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.stockui.classui.DelClassUIController">
+   <children>
+      <Label layoutX="32.0" layoutY="130.0" text="确认删除">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="className" layoutX="162.0" layoutY="130.0" prefHeight="32.0" prefWidth="308.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="81.0" layoutY="261.0" mnemonicParsing="false" onAction="#onOK" prefHeight="36.0" prefWidth="95.0" text="确认" />
+      <Button layoutX="324.0" layoutY="261.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="36.0" prefWidth="95.0" text="取消" />
+   </children>
+</AnchorPane>

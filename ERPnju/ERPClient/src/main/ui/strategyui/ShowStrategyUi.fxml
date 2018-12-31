@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.strategyui.ShowStrategyController">
+   <children>
+      <AnchorPane layoutY="-3.0" prefHeight="750.0" prefWidth="1000.0">
+         <children>
+            <ScrollPane layoutX="27.0" layoutY="59.0" prefHeight="563.0" prefWidth="946.0">
+               <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="971.0">
+                     <children>
+                        <TableView fx:id="Strategy" layoutX="36.0" layoutY="26.0" prefHeight="618.0" prefWidth="914.0">
+                          <columns>
+                            <TableColumn fx:id="id" prefWidth="162.0" text="编号" />
+                            <TableColumn fx:id="type" prefWidth="180.0" text="类型" />
+                              <TableColumn fx:id="time" prefWidth="193.0" text="时间" />
+                              <TableColumn fx:id="intro" prefWidth="435.0" text="简述" />
+                          </columns>
+                           <contextMenu>
+                              <ContextMenu>
+                                <items>
+                                  <MenuItem fx:id="delete" mnemonicParsing="false" onAction="#delete" text="删除" />
+                                </items>
+                              </ContextMenu>
+                           </contextMenu>
+                        </TableView>
+                        <JFXButton fx:id="refresh" layoutX="776.0" layoutY="656.0" onAction="#refresh" prefHeight="44.0" prefWidth="150.0" text="刷新列表" textFill="#1237e0">
+                           <font>
+                              <Font name="STCaiyun" size="23.0" />
+                           </font>
+                        </JFXButton>
+                     </children></AnchorPane>
+               </content>
+            </ScrollPane>
+            <Label layoutX="36.0" layoutY="4.0" prefHeight="44.0" prefWidth="167.0" text="促销策略查看" textFill="#220de4">
+               <font>
+                  <Font size="26.0" />
+               </font></Label>
+            <Label layoutX="890.0" layoutY="665.0" text="刷新" textFill="WHITE" />
+            <JFXButton fx:id="refresh" layoutX="841.0" layoutY="650.0" onAction="#refresh" prefHeight="44.0" prefWidth="44.0" stylesheets="@../util/search_refresh.css" text=" " textFill="#1237e0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

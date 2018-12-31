@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.bookui.firstbookui.classui.ShowClassUIController">
+   <children>
+      <Label layoutX="32.0" layoutY="20.0" text="商品分类名：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="311.0" layoutY="20.0" text="商品分类id：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="className" layoutX="150.0" layoutY="20.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="classId" layoutX="420.0" layoutY="20.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="sub" layoutX="32.0" layoutY="118.0" prefHeight="36.0" prefWidth="107.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="32.0" layoutY="68.0" text="父类：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="father" layoutX="115.0" layoutY="68.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TableView fx:id="subList" layoutX="151.0" layoutY="118.0" prefHeight="200.0" prefWidth="428.0" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="151.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="118.0">
+        <columns>
+          <TableColumn fx:id="row" maxWidth="96.0" minWidth="65.0" prefWidth="96.0" resizable="false" text="#" />
+          <TableColumn fx:id="id" maxWidth="392.0" minWidth="361.0" prefWidth="361.0" resizable="false" text="编号" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="247.0" layoutY="343.0" onAction="#onOK" prefHeight="36.0" prefWidth="107.0" stylesheets="@../../../util/prettybtn.css" text="我知道了">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.strategyui.ClientNewStrategyController">
+   <children>
+      <AnchorPane layoutY="-3.0" prefHeight="750.0" prefWidth="1000.0">
+         <children>
+            <ScrollPane layoutY="50.0" prefHeight="600.0" prefWidth="581.0">
+               <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="778.0" prefWidth="544.0">
+                     <children>
+                        <Label alignment="CENTER" layoutY="10.0" prefHeight="30.0" prefWidth="69.0" text="编号" />
+                        <Label fx:id="id" layoutX="83.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="这里是编号" />
+                        <MenuButton fx:id="level" layoutX="358.0" layoutY="149.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" text="选择等级">
+                          <items>
+                            <MenuItem fx:id="one" mnemonicParsing="false" onAction="#setOne" text="1" />
+                            <MenuItem fx:id="two" mnemonicParsing="false" onAction="#setTwo" text="2" />
+                              <MenuItem fx:id="three" mnemonicParsing="false" onAction="#setThree" text="3" />
+                              <MenuItem fx:id="four" mnemonicParsing="false" onAction="#setFour" text="4" />
+                              <MenuItem fx:id="five" mnemonicParsing="false" onAction="#setFive" text="5" />
+                          </items>
+                        </MenuButton>
+                        <MenuButton fx:id="StrategyType" layoutX="18.0" layoutY="149.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="190.0" text="选择促销策略类型">
+                          <items>
+                            <MenuItem fx:id="gift" mnemonicParsing="false" onAction="#setGiftAnchorPane" text="赠品" />
+                            <MenuItem fx:id="coupon" mnemonicParsing="false" onAction="#setCouponAnchorPane" text="代金券" />
+                              <MenuItem fx:id="discount" mnemonicParsing="false" onAction="#setDiscountAnchorPane" text="折扣" />
+                          </items>
+                        </MenuButton>
+                        <AnchorPane fx:id="area" layoutX="6.0" layoutY="201.0" prefHeight="467.0" prefWidth="531.0" />
+                        <DatePicker fx:id="end" layoutX="103.0" layoutY="108.0" showWeekNumbers="true" />
+                        <DatePicker fx:id="start" layoutX="103.0" layoutY="55.0" showWeekNumbers="true" />
+                        <Label layoutX="22.0" layoutY="55.0" prefHeight="30.0" prefWidth="61.0" text="起始时间" />
+                        <Label layoutX="22.0" layoutY="108.0" prefHeight="30.0" prefWidth="61.0" text="结束时间" />
+                        <Label alignment="CENTER" layoutX="280.0" layoutY="149.0" prefHeight="30.0" prefWidth="69.0" text="客户等级" />
+                     </children></AnchorPane>
+               </content>
+            </ScrollPane>
+            <Label layoutX="36.0" layoutY="4.0" prefHeight="44.0" prefWidth="137.0" text="促销策略" textFill="#220de4">
+               <font>
+                  <Font size="26.0" />
+               </font></Label>
+            <TabPane layoutX="588.0" layoutY="48.0" prefHeight="653.0" prefWidth="392.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="Goods" text="商品列表">
+                  <content>
+                    <AnchorPane fx:id="goodsui" minHeight="0.0" minWidth="0.0" prefHeight="626.0" prefWidth="390.0">
+                           <children>
+                              <Button layoutX="52.0" layoutY="578.0" mnemonicParsing="false" onAction="#searchGoods" stylesheets="@../util/prettybtn.css" text="搜索" />
+                              <Button layoutX="266.0" layoutY="578.0" mnemonicParsing="false" onAction="#add" stylesheets="@../util/prettybtn.css" text="选择" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                <Tab fx:id="Clients" text="客户列表">
+                  <content>
+                    <AnchorPane fx:id="clientui" minHeight="0.0" minWidth="0.0" prefHeight="700.0" prefWidth="395.0">
+                           <children>
+                              <Button layoutX="173.0" layoutY="578.0" mnemonicParsing="false" onAction="#searchClient" stylesheets="@../util/prettybtn.css" text="搜索" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+            <Button fx:id="confirm" layoutX="96.0" layoutY="670.0" mnemonicParsing="false" onMouseClicked="#confirm" prefHeight="30.0" prefWidth="98.0" stylesheets="@../util/receipt.css" text="确认" />
+            <Button fx:id="cancel" layoutX="380.0" layoutY="670.0" mnemonicParsing="false" onMouseClicked="#cancel" prefHeight="30.0" prefWidth="98.0" stylesheets="@../util/receipt.css" text="取消" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

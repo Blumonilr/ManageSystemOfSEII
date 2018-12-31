@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="725.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.bookui.firstbookui.clientui.ClientUIController">
+   <children>
+      <Label layoutX="27.0" layoutY="14.0" prefHeight="32.0" prefWidth="77.0" text="客户管理" textFill="#7249ee">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="68.0" text="姓名：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="590.0" layoutY="65.0" text="电话：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="118.0" prefHeight="24.0" prefWidth="77.0" text="业务员：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="66.0" prefHeight="20.0" prefWidth="99.0" text="客户类型：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="27.0" layoutY="118.0" prefHeight="20.0" prefWidth="99.0" text="客户级别：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <JFXTextField fx:id="nameInfo" layoutX="97.0" layoutY="54.0" prefHeight="30.0" prefWidth="136.0" />
+      <JFXTextField fx:id="levelInfo" layoutX="127.0" layoutY="105.0" prefHeight="30.0" prefWidth="136.0" />
+      <JFXTextField fx:id="clerkIdInfo" layoutX="407.0" layoutY="105.0" prefHeight="30.0" prefWidth="136.0" />
+      <JFXTextField fx:id="telInfo" layoutX="658.0" layoutY="57.0" prefHeight="30.0" prefWidth="136.0" />
+      <JFXComboBox fx:id="typeInfo" layoutX="407.0" layoutY="56.0" onAction="#onSearch" prefHeight="30.0" prefWidth="136.0" />
+      <AnchorPane fx:id="pane" layoutX="50.0" layoutY="153.0" prefHeight="541.0" prefWidth="850.0" />
+      <JFXButton fx:id="add" layoutX="790.0" layoutY="99.0"  prefHeight="46.0" prefWidth="40.0" stylesheets="@../../../util/client.css" text=" " textFill="#7180e4" />
+      <JFXButton fx:id="search" layoutX="671.0" layoutY="97.0" onAction="#onSearch" prefHeight="46.0" prefWidth="40.0" stylesheets="@../../../util/client.css" text=" " textFill="#6a71d3" />
+      <Label layoutX="711.0" layoutY="125.0" text="搜索" />
+      <Label layoutX="830.0" layoutY="125.0" text="新建" />
+   </children>
+</AnchorPane>

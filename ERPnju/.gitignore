@@ -1,0 +1,17 @@
+/target/
+/bin/
+
+# Eclipse
+.classpath
+.project
+.externalToolBuilders/
+.metadata
+.settings
+workspace.xml
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/

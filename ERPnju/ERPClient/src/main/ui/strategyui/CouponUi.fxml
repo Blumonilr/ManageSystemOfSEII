@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.strategyui.CouponController">
+   <children>
+      <AnchorPane prefHeight="542.0" prefWidth="548.0">
+         <children>
+            <Label layoutX="22.0" layoutY="14.0" prefHeight="42.0" prefWidth="125.0" text="代金券" textFill="#1853dd">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <TextField fx:id="coupon" layoutX="113.0" layoutY="81.0" />
+            <Label layoutX="22.0" layoutY="81.0" prefHeight="30.0" prefWidth="83.0" text="代金券金额" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

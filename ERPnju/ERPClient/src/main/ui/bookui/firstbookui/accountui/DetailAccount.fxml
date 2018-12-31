@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.bookui.firstbookui.accountui.DetailController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="44.0" prefHeight="46.0" prefWidth="81.0" text="名称:">
+         <font>
+            <Font name="Microsoft YaHei" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="119.0" prefHeight="46.0" prefWidth="81.0" text="帐号:">
+         <font>
+            <Font name="Microsoft YaHei" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="193.0" prefHeight="46.0" prefWidth="81.0" text="密码:">
+         <font>
+            <Font name="Microsoft YaHei" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="267.0" prefHeight="46.0" prefWidth="81.0" text="余额:">
+         <font>
+            <Font name="Microsoft YaHei" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="idLabel" contentDisplay="CENTER" layoutX="202.0" layoutY="119.0" prefHeight="46.0" prefWidth="277.0">
+         <font>
+            <Font name="Microsoft YaHei" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="amountLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="267.0" prefHeight="46.0" prefWidth="176.0">
+         <font>
+            <Font name="Microsoft YaHei" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="200.0" prefHeight="46.0" prefWidth="176.0">
+         <font>
+            <Font name="Microsoft YaHei" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="nickNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="44.0" prefHeight="46.0" prefWidth="176.0">
+         <font>
+            <Font name="Microsoft YaHei" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="detailOK" layoutX="232.0" layoutY="342.0" mnemonicParsing="false" onAction="#closeDetail" prefHeight="31.0" prefWidth="117.0" text="确定">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

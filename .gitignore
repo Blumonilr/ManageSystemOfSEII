@@ -1,0 +1,16 @@
+# Eclipse
+.classpath
+.project
+.externalToolBuilders/
+.metadata
+.settings
+workspace.xml
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+ERPnju/ERPServer/account books/info\.db
+/.recommenders/

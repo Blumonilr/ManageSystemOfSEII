@@ -1,0 +1,28 @@
+#search{
+	 -fx-background-image: url(../../../resources/style_2/search.png);
+	 -fx-background-size: 35,35;
+	 -fx-background-position:center;
+	 -fx-background-repeat:no-repeat;
+}
+
+.button:hover{
+    -fx-background-color: #7c82e9;
+}
+
+.button:pressed{
+    -fx-background-color: #7676f5;
+}
+
+#choose{
+	 -fx-background-image: url(../../../resources/style_2/choose.png);
+	 -fx-background-size: 35,35;
+	 -fx-background-position:center;
+	 -fx-background-repeat:no-repeat;
+}
+
+#add{
+	 -fx-background-image: url(../../../resources/style_2/add.png);
+	 -fx-background-size: 35,35;
+	 -fx-background-position:center;
+	 -fx-background-repeat:no-repeat;
+}

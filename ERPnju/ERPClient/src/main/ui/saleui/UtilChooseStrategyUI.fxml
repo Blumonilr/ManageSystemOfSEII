@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="570.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.saleui.UtilChooseStrategyUIController">
+   <children>
+      <JFXCheckBox fx:id="clientLevel" checkedColor="#103a9c" layoutX="14.0" layoutY="17.0" selected="true" text="根据客户等级" />
+      <JFXCheckBox fx:id="totalPrice" checkedColor="#103a9c" layoutX="13.0" layoutY="48.0" selected="true" text="根据总价" />
+      <JFXCheckBox fx:id="gift" layoutX="152.0" layoutY="17.0" selected="true" text="赠品" />
+      <JFXCheckBox fx:id="discount" layoutX="153.0" layoutY="48.0" selected="true" text="折扣" />
+      <JFXCheckBox fx:id="bargainBag" layoutX="245.0" layoutY="17.0" selected="true" text="特价包" />
+      <AnchorPane fx:id="tablePane" layoutX="12.0" layoutY="87.0" prefHeight="470.0" prefWidth="325.0" />
+      <JFXCheckBox fx:id="voucher" layoutX="246.0" layoutY="48.0" selected="true" text="代金券" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="503.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.userui.AddUserUIController">
+   <children>
+      <Label layoutX="14.0" layoutY="9.0" text="新建用户" textFill="#361194">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="67.0" text="用户ID：" />
+      <Label layoutX="14.0" layoutY="202.0" text="用户密码：" />
+      <Label layoutX="14.0" layoutY="277.0" text="用户级别：" />
+      <Label layoutX="14.0" layoutY="128.0" text="用户类型：" />
+      <JFXTextField fx:id="id" layoutX="108.0" layoutY="62.0" prefHeight="30.0" prefWidth="243.0" />
+      <JFXTextField fx:id="password" layoutX="110.0" layoutY="197.0" prefHeight="30.0" prefWidth="243.0" />
+      <JFXComboBox fx:id="type" layoutX="110.0" layoutY="123.0" prefHeight="30.0" prefWidth="243.0" />
+      <JFXComboBox fx:id="level" disable="true" layoutX="108.0" layoutY="272.0" prefHeight="30.0" prefWidth="243.0" />
+      <ImageView fitHeight="43.0" fitWidth="42.0" layoutX="113.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/style_2/选中.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="42.0" layoutX="267.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/style_2/home.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="119.0" layoutY="436.0" text="保存" />
+      <Label layoutX="273.0" layoutY="436.0" text="返回" />
+      <JFXButton layoutX="267.0" layoutY="386.0" onAction="#onCancel" prefHeight="42.0" prefWidth="42.0" text=" " />
+      <JFXButton layoutX="113.0" layoutY="386.0" onAction="#onSave" prefHeight="42.0" prefWidth="42.0" text=" " />
+   </children>
+</AnchorPane>

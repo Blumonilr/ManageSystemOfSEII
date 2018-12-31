@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.mainui.LoginUIController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/mainui_resources/log.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="45.0" layoutY="315.0" text="用户名">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="393.0" text="密码">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="id" layoutX="124.0" layoutY="312.0" prefHeight="30.0" prefWidth="211.0" />
+      <JFXPasswordField fx:id="password" layoutX="124.0" layoutY="390.0" prefHeight="30.0" prefWidth="211.0" />
+      <JFXButton fx:id="ok" layoutX="85.0" layoutY="459.0" onAction="#onLogin" prefHeight="30.0" prefWidth="78.0" text="登录">
+         <stylesheets>
+            <URL value="@login.css" />
+            <URL value="@login.css" />
+         </stylesheets>
+      </JFXButton>
+      <JFXButton layoutX="247.0" layoutY="459.0" onAction="#onCancel" prefHeight="30.0" prefWidth="78.0" stylesheets="@login.css" text="取消" />
+      <Label layoutX="62.0" layoutY="110.0" text="欢迎使用ERP办公系统，请登录" textFill="#291661">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="pwValidator" layoutX="124.0" layoutY="427.0" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

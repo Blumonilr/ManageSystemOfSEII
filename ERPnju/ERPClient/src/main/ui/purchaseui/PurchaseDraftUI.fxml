@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="725.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.purchaseui.PurchaseDraftUIController">
+   <children>
+      <AnchorPane fx:id="tablePane" layoutX="50.0" layoutY="55.0" prefHeight="520.0" prefWidth="900.0" />
+      <Label layoutX="50.0" layoutY="14.0" text="我的草稿">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="624.0" text="编辑" textFill="WHITE" />
+      <Label layoutX="668.0" layoutY="624.0" text="刷新" textFill="WHITE" />
+      <Label layoutX="470.0" layoutY="624.0" text="删除" textFill="WHITE" />
+      <JFXButton fx:id="brush" layoutX="273.0" layoutY="575.0" onAction="#onOpen" prefHeight="44.0" prefWidth="44.0" stylesheets="@../util/draft.css" text=" " />
+      <JFXButton fx:id="trash" layoutX="463.0" layoutY="580.0" onAction="#onDelete" prefHeight="44.0" prefWidth="44.0" stylesheets="@../util/draft.css" text=" " />
+      <JFXButton fx:id="refresh" layoutX="661.0" layoutY="580.0" onAction="#onRefresh" prefHeight="44.0" prefWidth="44.0" stylesheets="@../util/draft.css" text=" " />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="725.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.purchaseui.PurchaseUnrevisedUIController">
+   <children>
+      <AnchorPane fx:id="tablePane" layoutX="58.0" layoutY="103.0" prefHeight="495.0" prefWidth="884.0" />
+      <JFXDatePicker fx:id="beginTime" layoutX="151.0" layoutY="49.0" prefHeight="30.0" prefWidth="240.0" />
+      <JFXDatePicker fx:id="endTime" layoutX="560.0" layoutY="49.0" prefHeight="30.0" prefWidth="240.0" />
+      <Label layoutX="62.0" layoutY="54.0" text="开始时间：" />
+      <Label layoutX="465.0" layoutY="54.0" text="结束时间：" />
+      <Label layoutX="467.0" layoutY="655.0" text="查看" textFill="WHITE" />
+      <JFXButton fx:id="detail" layoutX="462.0" layoutY="611.0" onAction="#onOpen" prefHeight="41.0" prefWidth="41.0" ripplerFill="#3352d0" stylesheets="@../util/unrevisereceipt.css" text=" " />
+      <Label layoutX="879.0" layoutY="64.0" text="搜索" />
+      <JFXButton fx:id="search" layoutX="838.0" layoutY="44.0" onAction="#onSearch" prefHeight="41.0" prefWidth="41.0" ripplerFill="#535fd0" stylesheets="@../util/unrevisereceipt.css" text=" " />
+   </children>
+</AnchorPane>

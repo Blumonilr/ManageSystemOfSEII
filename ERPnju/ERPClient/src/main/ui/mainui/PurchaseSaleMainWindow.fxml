@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" stylesheets="@../util/bg.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.mainui.PurchaseSaleMainWindowController">
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/mainui_resources/upper_director.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redBall" fitHeight="10.0" fitWidth="10.0" layoutX="1107.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutY="778.0" prefHeight="15.0" prefWidth="1200.0" />
+      <TabPane fx:id="mainPane" layoutX="200.0" layoutY="48.0" prefHeight="750.0" prefWidth="1000.0" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="48.0" />
+      <Accordion layoutY="50.0" prefHeight="412.0" prefWidth="200.0">
+        <panes>
+          <TitledPane animated="false" text="进货管理">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" onAction="#onPurchase_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#1313f2" stylesheets="@../util/leftbtn.css" text="制定进货单" textFill="#1e1e1e" />
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" layoutY="45.0" onAction="#onPurchaseReturn_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#1313f2" stylesheets="@../util/leftbtn.css" text="制定进货退货单" textFill="#1e1e1e" />
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" layoutY="90.0" onAction="#onPurchaseDraft_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#1313f2" stylesheets="@../util/leftbtn.css" text="进货草稿" textFill="#1e1e1e" />
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" layoutY="135.0" onAction="#onPurchaseUnrevised_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#1313f2" stylesheets="@../util/leftbtn.css" text="未审批单据" textFill="#1e1e1e">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                           <effect>
+                              <ColorAdjust />
+                           </effect>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+            </content>
+               <font>
+                  <Font size="17.0" />
+               </font>
+          </TitledPane>
+          <TitledPane animated="false" text="销售管理">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" onAction="#onSale_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#c93333" stylesheets="@../util/leftbtn.css" text="制定销售单" />
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" layoutY="44.0" onAction="#onSaleReturn_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#c93333" stylesheets="@../util/leftbtn.css" text="制定销售退货单" />
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" layoutY="89.0" onAction="#onSaleDraft_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#c93333" stylesheets="@../util/leftbtn.css" text="销售草稿" />
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" layoutY="134.0" onAction="#onSaleUnrevised_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#c93333" stylesheets="@../util/leftbtn.css" text="未审批单据" />
+                     </children>
+                  </AnchorPane>
+            </content>
+               <font>
+                  <Font size="17.0" />
+               </font>
+          </TitledPane>
+          <TitledPane animated="false" text="客户管理">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" onAction="#onAddClient_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#1ab974" stylesheets="@../util/leftbtn.css" text="客户管理" />
+                     </children>
+                  </AnchorPane>
+            </content>
+               <font>
+                  <Font size="17.0" />
+               </font>
+          </TitledPane>
+            <TitledPane animated="false" text="其他">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="204.0" prefWidth="198.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" onAction="#onLog_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#f8f793" stylesheets="@../util/leftbtn.css" text="日志" />
+                        <JFXButton buttonType="RAISED" layoutX="-1.0" layoutY="45.0" onAction="#onMessage_btn" prefHeight="46.0" prefWidth="200.0" ripplerFill="#f8f117" stylesheets="@../util/leftbtn.css" text="消息" />
+                     </children>
+                  </AnchorPane>
+               </content>
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TitledPane>
+        </panes>
+      </Accordion>
+      <JFXButton fx:id="logout" layoutX="1117.0" layoutY="2.0" onAction="#onLogOut" prefHeight="46.0" prefWidth="46.0" stylesheets="@../util/topbtn.css" text=" " />
+      <JFXButton fx:id="message" layoutX="1051.0" layoutY="2.0" onAction="#onMessage_btn" prefHeight="46.0" prefWidth="46.0" stylesheets="@../util/topbtn.css" text=" " />
+   </children>
+</AnchorPane>

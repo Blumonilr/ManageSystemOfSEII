@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.reviseui.ReviseController">
+   <children>
+      <AnchorPane layoutX="4.0" prefHeight="900.0" prefWidth="900.0">
+         <children>
+            <Button fx:id="ReviseButton" layoutX="489.0" layoutY="630.0" mnemonicParsing="false" onMouseClicked="#revise" prefHeight="42.0" prefWidth="128.0" text="审批通过" />
+            <Button fx:id="ModifyButton" layoutX="668.0" layoutY="630.0" mnemonicParsing="false" onAction="#modifyReturn" onMouseClicked="#modifyReturn" prefHeight="42.0" prefWidth="128.0" text="退回修改" />
+            <ScrollPane layoutX="94.0" layoutY="80.0" prefHeight="509.0" prefWidth="713.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="530.0" prefWidth="710.0">
+                     <children>
+                        <TableView fx:id="ReceiptList" prefHeight="530.0" prefWidth="713.0">
+                          <columns>
+                            <TableColumn fx:id="time" prefWidth="139.0" text="时间" />
+                            <TableColumn fx:id="id" minWidth="0.0" prefWidth="321.0" text="单据编号" />
+                              <TableColumn fx:id="type" prefWidth="234.0" text="单据类型" />
+                          </columns>
+                           <contextMenu>
+                              <ContextMenu>
+                                <items>
+                                  <MenuItem fx:id="modify" mnemonicParsing="false" onAction="#modify" text="修改单据" />
+                                </items>
+                              </ContextMenu>
+                           </contextMenu>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

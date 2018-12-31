@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.strategyui.GiftController">
+   <children>
+      <AnchorPane prefHeight="542.0" prefWidth="548.0">
+         <children>
+            <TableView fx:id="goods" layoutY="66.0" prefHeight="443.0" prefWidth="548.0">
+              <columns>
+                <TableColumn fx:id="id" editable="false" maxWidth="263.0" minWidth="-1.0" prefWidth="257.0" resizable="false" text="商品编号" />
+                <TableColumn fx:id="name" editable="false" minWidth="0.0" prefWidth="96.0" resizable="false" text="商品名称" />
+                  <TableColumn fx:id="price" editable="false" minWidth="9.0" prefWidth="99.0" resizable="false" text="商品单价" />
+                  <TableColumn fx:id="num" prefWidth="95.0" resizable="false" text="商品数量" />
+              </columns>
+            </TableView>
+            <Label fx:id="title" layoutX="22.0" layoutY="14.0" prefHeight="42.0" prefWidth="125.0" text="赠品" textFill="#1853dd">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

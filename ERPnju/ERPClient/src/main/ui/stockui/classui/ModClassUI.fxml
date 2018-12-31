@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="320.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.stockui.classui.ModClassUIController">
+   <children>
+      <Label layoutX="32.0" layoutY="78.0" text="商品分类名：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="33.0" layoutY="140.0" text="商品分类id：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="classId" layoutX="164.0" layoutY="140.0" prefHeight="24.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="207.0" text="父类：">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="father" layoutX="137.0" layoutY="211.0" prefHeight="15.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <JFXButton layoutX="171.0" layoutY="271.0" onAction="#onOK" prefHeight="36.0" prefWidth="108.0" stylesheets="@../../util/prettybtn.css" text="确定" AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="171.0" AnchorPane.rightAnchor="171.0" AnchorPane.topAnchor="271.0">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+      <TextField fx:id="input" layoutX="155.0" layoutY="72.0" prefHeight="36.0" prefWidth="195.0" AnchorPane.leftAnchor="155.0" AnchorPane.rightAnchor="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

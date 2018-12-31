@@ -1,0 +1,1148 @@
+[33mcommit 5c9d1404bdfa1b2764e872da07d94af2b149a56f[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Nov 6 23:05:34 2017 +0800
+
+    详细设计文档修改 purchase sale account
+
+[33mcommit a14ad8711689c7f59dd6258d509c3179f796bd86[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Nov 6 19:08:06 2017 +0800
+
+    13 14顺序图修改；详细设计概念类图修改
+
+[33mcommit dd881cec4854b8fbfab8769ecc6e7cb9983bab29[m
+Merge: 43d9c45 c713cfc
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Nov 6 10:49:01 2017 +0800
+
+    Merge branch 'master' of http://101.37.19.32:10080/161250103/ManageSystem into JinBingShu
+
+[33mcommit c713cfc0fdfa25eba3d16ba97d21c77843265e33[m
+Merge: 0b20f87 dee3816
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Nov 6 10:48:25 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit 0b20f87d0068c4ab9a41634c938087ab550d7bb7[m
+Merge: 305a990 2e271c5
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Nov 6 10:48:18 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 305a9905eb48fa84171b68f309bf2cc98988d0fd[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Nov 6 10:48:09 2017 +0800
+
+    1~2
+
+[33mcommit 43d9c458983c027c17517ca8b5378027fc077249[m
+Merge: 2e271c5 c0c206d
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Nov 5 12:26:31 2017 +0800
+
+    Merge branch 'master' of http://101.37.19.32:10080/161250103/ManageSystem into JinBingShu
+
+[33mcommit 2e271c5238107dbfb87d0d8c7b0081b9632fea0f[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Nov 5 12:11:28 2017 +0800
+
+    需求规格说明修改13-18
+
+[33mcommit dee381640f120e6e602f8e6bba5db90db5877c9f[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Sat Nov 4 15:40:47 2017 +0800
+
+    修改需求规格说明文档
+
+[33mcommit 4cdc43f7c97f85b4897c8e511b8bad35f39d4049[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Tue Oct 31 23:44:15 2017 +0800
+
+    qyc's update
+
+[33mcommit c0c206d2ad732efc802c35ad870b7a35e5e752b4[m
+Merge: 7f4beb4 3efb885
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 23:40:49 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 7f4beb429559e0d0eb8b0887014c59d1ba5d69e0[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 23:40:46 2017 +0800
+
+    层内接口
+
+[33mcommit 3efb885f049356294907b181846a15c967bc1b7a[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 30 23:34:44 2017 +0800
+
+    文档加url
+
+[33mcommit 6b1db42d75564df0d5f4f00152aaff1ed7f35ea5[m
+Merge: 419e130 c3e6c2d
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 23:28:35 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 419e1307a1479f7fb675ce0c15731a6111866fa4[m
+Merge: 98ff5ea 64be9c3
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 23:24:37 2017 +0800
+
+    Merge remote-tracking branch 'origin/wulinyang'
+
+[33mcommit c3e6c2db4f3e318b6d07a4a46e79b5429a4cd6a9[m
+Merge: 98ff5ea 64be9c3
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 23:24:37 2017 +0800
+
+    Merge remote-tracking branch 'origin/wulinyang'
+
+[33mcommit 98ff5ea9d7230e654192b05376f0d75eed0c674e[m
+Merge: 10265ed 8d4eb03
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 23:24:10 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit 10265ede9d9d317fa492d41bcb80c1980e778095[m
+Merge: fc226f8 04ed730
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 23:24:06 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit fc226f8161ace5a9b4eb3c5ca98704ef9fd085be[m
+Merge: be5fa47 3c31170
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 16:42:42 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 04ed73024b76e6e2262a4289dab91a50d498b4cb[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 30 23:18:24 2017 +0800
+
+    详细设计文档 三个顺序图
+
+[33mcommit 8d4eb0375fa553186e59398e84f95953f52b1604[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Mon Oct 30 22:51:35 2017 +0800
+
+    添加了三张顺序图，修改bookbl模块设计图
+
+[33mcommit 64be9c37b0dbc90286eba72f37543a8b455480ee[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Mon Oct 30 21:25:22 2017 +0800
+
+    文档加入顺序图
+
+[33mcommit 4e0e416115d896c0d6ae857d1963214ab81021f3[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Mon Oct 30 20:26:09 2017 +0800
+
+    补全详细设计文档
+
+[33mcommit 54f19a008f384f0247f8e736f8085e472acfe0ac[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Mon Oct 30 20:20:17 2017 +0800
+
+    更新图例
+
+[33mcommit 2dccf2fe9eba0bdfaff2558a31cae464e76c4751[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Mon Oct 30 20:18:14 2017 +0800
+
+    完成form、finance、book模块设计图
+
+[33mcommit c261d0b6580c9dd274cf5260efc775d5b2137732[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Mon Oct 30 17:17:40 2017 +0800
+
+    push
+
+[33mcommit 24df825115dfaf0af47d326d68bdf8b0e6858da6[m
+Merge: be5fa47 3c31170
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 16:42:42 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit be5fa471fd8277ce3b93d82dbbb9e6061657f9bf[m
+Merge: 7ee5bcf 068a192
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 16:36:59 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 3c31170b4414efd4ba6c30db92a81d81568590d5[m
+Merge: 7ee5bcf 068a192
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 16:36:59 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 7ee5bcf40505a29fdc05c45f93ffd1e8f04a843d[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 16:28:36 2017 +0800
+
+    修改详细设计
+
+[33mcommit 068a19267ebfd1cc69055e78ccc5e57b1fc24ef2[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 16:28:36 2017 +0800
+
+    修改详细设计
+
+[33mcommit d514342e65dc00ae37d6e6c3017ee565e8813a5d[m
+Merge: 5e254ce ce15a83
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 16:06:31 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit ce15a83be98326a907f799ae3ed5177782da8e71[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 30 11:24:02 2017 +0800
+
+    详细设计文档补充
+
+[33mcommit 5e254ce4cb893164e093c6fa462ce7d401682a52[m
+Merge: bca3c49 8490a78
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 10:31:02 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 8490a78754e30ac3e9c642e8f310f7f5cfbe42c2[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 30 10:30:34 2017 +0800
+
+    bl分解图 account sale purchase
+
+[33mcommit bca3c49f7b54d82204b67b3f04bbcf44e3843a59[m
+Merge: 383e7c3 0d0a238
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 30 07:57:13 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 383e7c3f072fbd7bdf99624be3f855fe856d00e2[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 29 23:49:53 2017 +0800
+
+    stockbl  clientbl
+
+[33mcommit 0d0a238a99b3396a11f17511a02aece8b28f5f29[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 29 23:49:53 2017 +0800
+
+    stockbl  clientbl
+
+[33mcommit 9099e0cd041e13440392d6453f1e4e0f4b1c525a[m
+Merge: 385239a 2625e7c
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 29 23:39:59 2017 +0800
+
+    Merge remote-tracking branch 'origin/wulinyang'
+
+[33mcommit 385239a9338bd01634188556bff96eb2466a776a[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 29 23:39:53 2017 +0800
+
+    add receipt in stockrecordpo
+
+[33mcommit 2625e7c2129377dfea8c7f98f10cf60d3372bbc2[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Sun Oct 29 23:01:46 2017 +0800
+
+    详细设计文档
+
+[33mcommit 3f2c81dd6e6a931f3e96c9c5a2784e994835b539[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Sun Oct 29 22:34:25 2017 +0800
+
+    模块设计
+
+[33mcommit d7926401a9798c13712ce1d7c4cc1732e27f0e28[m
+Merge: 740951f af83592
+Author: Unknown <1767855130@qq.com>
+Date:   Sat Oct 28 09:21:05 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit af835927ab39dd624effd9d3ab44710f8016111d[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Sat Oct 28 00:26:29 2017 +0800
+
+    添加人机交互原型文档总经理部分
+
+[33mcommit 740951f769983f39547066f83af4acfb244c77ea[m
+Merge: 6ee59d2 0b4a468
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 27 18:48:17 2017 +0800
+
+    Merge remote-tracking branch 'origin/wulinyang'
+
+[33mcommit 0b4a468fdccc3ae7a4645e928a1f416eac57d3bb[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Fri Oct 27 18:39:36 2017 +0800
+
+    人机交互文档
+
+[33mcommit 6ee59d24e702c5e9a8d685840aa9fd5de0ad2287[m
+Merge: 795d151 a0a66e9
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 27 18:34:02 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit a0a66e9724942fe70fb86a4e8258973fb53a5b8e[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Wed Oct 25 23:36:31 2017 +0800
+
+    设计原型文档更新1-5
+
+[33mcommit 795d15109d8b060351429bf3bfa2e0e38781763f[m
+Merge: 2c3b5da 4880ca1
+Author: Unknown <1767855130@qq.com>
+Date:   Wed Oct 25 23:05:10 2017 +0800
+
+    Merge remote-tracking branch 'origin/wulinyang'
+
+[33mcommit 2c3b5da7320fe18242361d44d51482cb7de2f5ca[m
+Merge: b1ba7f2 aa927ed
+Author: Unknown <1767855130@qq.com>
+Date:   Wed Oct 25 23:05:03 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit b1ba7f2010bbf8eab915b2279339879ded85fba4[m
+Merge: 7d93954 1c4bbcf
+Author: Unknown <1767855130@qq.com>
+Date:   Wed Oct 25 23:04:54 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 7d93954be025260721ac91be167dea62e33d0992[m
+Merge: 397efe5 e3912c8
+Author: Unknown <1767855130@qq.com>
+Date:   Wed Oct 25 23:04:44 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 397efe5c4a0e0b99a81ec60786a77642f1102c3c[m
+Merge: a4f9f2f 6baa9aa
+Author: Unknown <1767855130@qq.com>
+Date:   Wed Oct 25 23:00:22 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit e3912c83700266c62cccc54950445d337c868032[m
+Merge: a4f9f2f 6baa9aa
+Author: Unknown <1767855130@qq.com>
+Date:   Wed Oct 25 23:00:22 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit a4f9f2f482aeec5e9212cfda9af71ef7f70cd4df[m
+Merge: eba872b 0a09f6b
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 24 23:26:22 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 1c4bbcf34917e2dd5a81c59c20bf27fc51d07070[m
+Merge: 377cbb0 6baa9aa
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Wed Oct 25 22:41:10 2017 +0800
+
+    不知道怎么还有没commit的图片……
+
+[33mcommit aa927ed7f66751143b3ae2e33f603a828a768093[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Wed Oct 25 21:16:09 2017 +0800
+
+    完成了总经理界面原型设计
+
+[33mcommit 4880ca1795937c9f77f784aae3d700d19435c1e5[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Wed Oct 25 15:32:31 2017 +0800
+
+    期初建账ui
+
+[33mcommit 377cbb0bfb273a6f7793965e86066db1b04e37f2[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Tue Oct 24 23:55:09 2017 +0800
+
+    界面设计原型文档增加，请大家添加
+
+[33mcommit 63d002c81106b362b932fb9fa397552847fad1ff[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Tue Oct 24 23:53:09 2017 +0800
+
+    除期初建账外所有ui图
+
+[33mcommit 6baa9aa5c64760615a03c6366c25afa99d5267c9[m
+Merge: eba872b 0a09f6b
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 24 23:26:22 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit eba872bdebc5bdfb5fd46538a5a585bf229d9d0d[m
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 24 23:26:09 2017 +0800
+
+    用例7~12ui示意图
+
+[33mcommit 0a09f6b3d009c0643293086f8362501642fbdac4[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Tue Oct 24 21:13:16 2017 +0800
+
+    用例1-6 ui设计
+
+[33mcommit 4195f8db1557f888301d8700991a15405b1bc5be[m
+Merge: 6a59ffc 6eaf1b5
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 24 19:09:31 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 6a59ffc06d183937d3d2fce746c9c28965c77e37[m
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 24 19:09:17 2017 +0800
+
+    ???
+
+[33mcommit 6eaf1b52af3ab4f44603c1beb38ebc0bcc193429[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Tue Oct 24 19:08:15 2017 +0800
+
+    png pictures are in folder resources
+
+[33mcommit ae1f79cdbe8a05346a8054620d369f021afa3d96[m
+Merge: 9f2cc6f 59d6166
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 23 17:49:59 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 59d616666b23b94d1cddf1bb9887aa9a78ce5c53[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 23 17:49:08 2017 +0800
+
+    stub 修改
+
+[33mcommit 9f2cc6f6d864b14bce4f90a952f6ef933662ecbc[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 23 17:44:37 2017 +0800
+
+    大改stub
+
+[33mcommit 10afa543b4a8d062c5e02972b7e04066b5c7bd03[m
+Merge: 2b6285e 4ffae2e
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 23 16:40:11 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 4ffae2e8cd24b6bfdf7cd394eb4e6bb724cec8b8[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 23 16:34:44 2017 +0800
+
+    接口修改
+
+[33mcommit 2b6285eae81d3b22b431671d7cfcb7fede5d8db7[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 23 16:34:08 2017 +0800
+
+    修改dataservice接口和stub
+
+[33mcommit da502fd3dd0a9ec8b97b621406c7509544242475[m
+Merge: 2c356a2 3d5d940
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 23:46:28 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 3d5d940f53e30f1a9fb8923719cfea0822bdc3f6[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Oct 22 23:44:33 2017 +0800
+
+    finish
+
+[33mcommit 2c356a21150c19ad760466cc3bcd9a56ffc5e2d5[m
+Merge: 6bdb8b4 e6b215e
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 23:44:00 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 6bdb8b4822e604a10967fc232f2b988244ed5aca[m
+Merge: 9c30f3a ab45ee6
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 23:40:26 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit e6b215e4eec70ba056c4b8f3c2da0c237349e15e[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Sun Oct 22 23:40:07 2017 +0800
+
+    桩完成
+
+[33mcommit 9c30f3a34c68816785d789b60128477e7fb9e4c5[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 23:39:55 2017 +0800
+
+    some of stub
+
+[33mcommit f9cdbe7b0565364bda4ef9b04b4b5195f9bad0f6[m
+Merge: f7e9b44 ab45ee6
+Author: Blumonilr <458727969@qq.com>
+Date:   Sun Oct 22 23:22:43 2017 +0800
+
+    Merge branch 'Wangyibo' of http://101.37.19.32:10080/161250103/ManageSystem
+
+[33mcommit ab45ee652195075c4ef89b035e005e0d2964596d[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Sun Oct 22 22:54:33 2017 +0800
+
+    所有bl桩完成
+
+[33mcommit 1322608eb20c24405cfe78d2ab86d7b8de4a5ed3[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Sun Oct 22 22:33:50 2017 +0800
+
+    部分桩完成
+
+[33mcommit aff968d6b257411cb3c5bff4f3d828e286645aff[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 22:31:07 2017 +0800
+
+    Auto stash before merge of "master" and "origin/WuLinyang"
+
+[33mcommit 4a771cdc6e3c9bde40461233bdbbfc0ac6e52248[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Sun Oct 22 22:30:49 2017 +0800
+
+    部分桩完成
+
+[33mcommit 92433d95e27fd27498a716c6dddedcb09109ed7a[m
+Merge: f7e9b44 531e6e3
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 22:29:45 2017 +0800
+
+    Merge remote-tracking branch 'origin/WuLinyang'
+
+[33mcommit 531e6e3fd2d59a9ec191c76a179d2d571c7bb9c3[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Sun Oct 22 21:54:13 2017 +0800
+
+    体系结构文档修改
+
+[33mcommit f7e9b44911bb4bad31b96b5886e3b79e3b60568f[m
+Merge: dbf9a81 83b1169
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 20:47:38 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit dbf9a817226ced24ad07fbed7e7154dedd644c16[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 20:47:25 2017 +0800
+
+    dataservice
+
+[33mcommit 83b1169c296f4c07ea54fcd3ad4b02967ce4ce48[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Oct 22 20:45:13 2017 +0800
+
+    dataservice接口
+
+[33mcommit 70750e9eafd5efa7cf0cfed8a7fea99a2b7c15cf[m
+Merge: c7282a4 8d2f467
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 20:26:47 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 8d2f4679ba8a0126e89f261539b6d4844a94dec1[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Oct 22 20:26:26 2017 +0800
+
+    mend
+
+[33mcommit c7282a41f0ed0a99abe9e9933d810e638f1bf846[m
+Merge: 7b4e254 21731ae
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 20:25:25 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 7b4e254b00dd05ac4468dc9d8ed7a8b560e02911[m
+Merge: 428bf77 9bdca28
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 20:07:56 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 21731aedc2eade2f8bc982d5748444c8a6320379[m
+Merge: 428bf77 9bdca28
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 20:07:56 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 9bdca2864aa82fdc50ab9c7e5917893c6cd6337f[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Oct 22 20:07:07 2017 +0800
+
+    PO定义
+
+[33mcommit 428bf770be4d747dfc3c24ca94f4e643698638de[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 20:05:09 2017 +0800
+
+    some of PO
+
+[33mcommit e6cd2eca62643ccd9cc3922880ab1072e770d44f[m
+Merge: cd78ce8 2ec738d
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 11:04:07 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit cd78ce8dcb2eb0a9b8be329cd7e0145607b7fc18[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 10:57:43 2017 +0800
+
+    组织成Java project
+
+[33mcommit 2ec738dcfe8de621294b2ae6d90d50203c621b0e[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 22 10:57:43 2017 +0800
+
+    组织成Java project
+
+[33mcommit 347b4e7df6bee4210476d0e79901db5ac4da3af9[m
+Merge: dd72447 5be5c0a
+Author: Unknown <1767855130@qq.com>
+Date:   Sat Oct 21 23:26:54 2017 +0800
+
+    Merge remote-tracking branch 'origin/WuLinyang'
+
+[33mcommit dd72447374b9245c4408654789a8faafb4dd8e5e[m
+Merge: f9b4acb eef4fec
+Author: Unknown <1767855130@qq.com>
+Date:   Sat Oct 21 23:26:41 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit 5be5c0ad4f7dcf4fcc2814a22cdec9888154aa69[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Sat Oct 21 23:26:16 2017 +0800
+
+    push
+
+[33mcommit eef4fec8638588876e316dc5f8479c268a195733[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Sat Oct 21 21:56:23 2017 +0800
+
+    填充目录结构
+
+[33mcommit 70c0f95758c2b4f52952b88eff2fbafe8b143d33[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Sat Oct 21 21:47:01 2017 +0800
+
+    完成目录结构。修改data供接口，bl需接口
+
+[33mcommit f9b4acb955ed1318efe1de86a4e12ad573194a29[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sat Oct 21 12:45:32 2017 +0800
+
+    修改接口，form以后没改
+
+[33mcommit 4332e97464974d3635013326bd847f6a934a5f9a[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sat Oct 21 09:36:50 2017 +0800
+
+    merge jbs
+
+[33mcommit bd681f11adab51d5276306e55c4397d4c815ab21[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sat Oct 21 09:26:14 2017 +0800
+
+    bl层加标号
+
+[33mcommit 94b93383b1e6c7fae4f34d6bd0daba8e258f9159[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sat Oct 21 09:03:35 2017 +0800
+
+    修改bl层接口
+
+[33mcommit df32b628a3c934983f437e56a4bbb86908c701bd[m
+Merge: bdced6a a657f65
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 20 21:16:57 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit bdced6ad506e0ee4b6bcb2f706a6eeac43ebcf39[m
+Merge: b06b932 71cb2cc
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 20 21:06:19 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit a657f65d001e271662241c80388abb4059efe790[m
+Merge: b06b932 71cb2cc
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 20 21:06:19 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit b06b93272566fcf15df832a4c13feeef0e13abe1[m
+Merge: 5e8e60c 75de536
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 20 21:05:21 2017 +0800
+
+    Merge remote-tracking branch 'origin/WuLinyang'
+
+[33mcommit 5e8e60cc629d5c956eaf022b1b6b68e98a5a5a2f[m
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 20 21:04:23 2017 +0800
+
+    logic  interfaces completed
+
+[33mcommit 71cb2cc7b5a53eeb63090caa1b6f655aaa40a6ef[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Fri Oct 20 09:19:23 2017 +0800
+
+    体系结构设计文档初步
+
+[33mcommit b89d44493e204db1e1ec8d775de6373ff035d083[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Thu Oct 19 17:18:50 2017 +0800
+
+    no message
+
+[33mcommit e1e9c2483474fba17d11779324ee7b559e087c99[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Thu Oct 19 17:04:57 2017 +0800
+
+    no message
+
+[33mcommit 8cb923d0f6446ac770ad0aa55f7d04bf7f387d30[m
+Author: Unknown <1767855130@qq.com>
+Date:   Thu Oct 19 16:33:57 2017 +0800
+
+    需求规格文档完成
+
+[33mcommit 2f33164312d90c23541c738927c43659ff98b409[m
+Merge: fec1bc3 1ac043e
+Author: Unknown <1767855130@qq.com>
+Date:   Thu Oct 19 14:50:02 2017 +0800
+
+    Merge branch 'wly‘s_last_commit'
+
+[33mcommit fec1bc392366419f3a7cb0023786984de04f8133[m
+Merge: 93a614a 6601821
+Author: Unknown <1767855130@qq.com>
+Date:   Thu Oct 19 14:45:20 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 93a614a019d5afc95e97588971b6d3cb24f2086e[m
+Author: Unknown <1767855130@qq.com>
+Date:   Thu Oct 19 14:43:36 2017 +0800
+
+    91012需求规格
+
+[33mcommit 75de53695b8c16dac64c6274b19cd5e4aa0991ce[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Thu Oct 19 14:21:53 2017 +0800
+
+    部署图
+
+[33mcommit 72f0add03e7bcfcadaf4a64f14e1e3eb5133cdc6[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Thu Oct 19 14:18:45 2017 +0800
+
+    进程图
+
+[33mcommit ab6fa4f2b453a7d6b8d823e0eb0da98f39a32565[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Thu Oct 19 14:16:01 2017 +0800
+
+    进程图
+
+[33mcommit d06ffd8a767f5f1ed3d532a741944acd50579123[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Thu Oct 19 11:06:07 2017 +0800
+
+    5.2暂存
+
+[33mcommit e31a20ead267ca5533404254f360754bb5b10398[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Thu Oct 19 10:40:47 2017 +0800
+
+    图片修复
+
+[33mcommit e47eb94a0c62ff45394eb72bc99c47028a43e90c[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Thu Oct 19 10:36:04 2017 +0800
+
+    图改
+
+[33mcommit f120c45ec98d4988609816a6c9bbb06a8b2d6e41[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Thu Oct 19 00:10:32 2017 +0800
+
+    另一张图
+
+[33mcommit f3c8b0b456f4c4339392f25345834d1323802d9e[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Thu Oct 19 00:02:14 2017 +0800
+
+    图
+
+[33mcommit 1ac043ed446ad7084740d8b93dd7f1dfe1113b56[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Tue Oct 17 17:29:44 2017 +0800
+
+    更新文档
+
+[33mcommit 4cb0f18c9727de7d7c0e8a60e8a96bea94776929[m
+Merge: 215908c 40123a3
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 17 17:28:19 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+    
+    merge wyb
+
+[33mcommit 215908cbb06dd966b920e377df3b040f16a97542[m
+Merge: 40dba0c fd52a68
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 17 17:16:52 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 40dba0cca5d15869408792f8dc1253d977d03e42[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 15 20:19:42 2017 +0800
+
+    准备制定接口规范
+
+[33mcommit 6601821f01914932efe9347598b30a3daf9d62b2[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 16 20:28:01 2017 +0800
+
+    4567需求规格说明
+
+[33mcommit 40123a3e8134b97117ad9e03eec59c50be469818[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Mon Oct 16 12:53:37 2017 +0800
+
+    完成了需求规格说明文档用例14 15 16
+
+[33mcommit fd52a680403d2b97e25a9f90b9ab83f37f1faded[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 15 20:19:42 2017 +0800
+
+    准备制定接口规范
+
+[33mcommit 0cbf4848613641a67398d506c13a6c86a5efc893[m
+Merge: 64e5372 8627844
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 15 20:02:18 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 64e53727595af6ddd1701afce78c296d78f018f5[m
+Merge: 77a5ce7 47bb22f
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 15 20:01:26 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 86278446b6ff4bee16694220ad85e65d46ea0c8c[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Oct 15 19:58:45 2017 +0800
+
+    mend
+
+[33mcommit 435e3c41cade41ea6c21a2b6c0d68800cb56a65a[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Oct 15 19:51:43 2017 +0800
+
+    mend
+
+[33mcommit 4e17c7446ddfb4deec211759295570016f6b932c[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Oct 15 19:44:07 2017 +0800
+
+    开发包服务器端
+
+[33mcommit 77a5ce70e94cd2f96052d59639a3c9434ec496fd[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 15 17:05:50 2017 +0800
+
+    服务器开发包文档
+
+[33mcommit 47bb22f11d3ada1832743221ece39a65ca48ae52[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 15 17:05:50 2017 +0800
+
+    服务器开发包文档
+
+[33mcommit 073db7f4d8c0a79c9f8fa0fc58cc7d765582a4a1[m
+Merge: 8e4efc8 cf25937
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 15 17:03:33 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit cf25937a91cf43c92ccdf80ea497ef3b8aaa2366[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Sun Oct 15 17:02:32 2017 +0800
+
+    开发包设计
+
+[33mcommit 8e4efc83ae8764e4ca00fdc7c694648d5051a19d[m
+Author: Unknown <1767855130@qq.com>
+Date:   Sun Oct 15 17:00:39 2017 +0800
+
+    qyc's part
+
+[33mcommit 2dadffd4be5a4f48aa86a762891c129ebe7f0d5a[m
+Merge: 717c02f 3102700
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 13 17:17:27 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+    
+    merge wyb
+
+[33mcommit 717c02f2c46837902867c4bfb6a602d547adc95c[m
+Merge: 97bca12 3a79240
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 13 17:15:39 2017 +0800
+
+    merge jbs and wly
+
+[33mcommit 3102700f0db01e980daf985a6ab0950ddf8c5877[m
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Fri Oct 13 17:10:19 2017 +0800
+
+    修改了最后三个问题
+
+[33mcommit 97bca12909399d0420842f017b3060719484e2c5[m
+Merge: 414727c e2b0413
+Author: Unknown <1767855130@qq.com>
+Date:   Fri Oct 13 17:09:06 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit e2b0413bc4b56a4527052f85c6cbe0aad0215e91[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Thu Oct 12 16:40:04 2017 +0800
+
+    用例文档修改
+
+[33mcommit 3a79240e99243e0ce30fedd300f5d35abc1c7ebe[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Thu Oct 12 15:34:40 2017 +0800
+
+    修改问题5-7并更新相关文档
+
+[33mcommit 414727cf63cff732f69f6c3d1481e0ba11b56f1a[m
+Author: Unknown <1767855130@qq.com>
+Date:   Thu Oct 12 15:13:05 2017 +0800
+
+    fix problem 1~4
+
+[33mcommit a24b5e65666df53d01166a7f8d4158e5bbb418b7[m
+Merge: f792ada a27ea6f
+Author: Blumonilr <458727969@qq.com>
+Date:   Tue Oct 10 19:24:59 2017 +0800
+
+    Merge remote-tracking branch 'origin/master' into WuLinyang
+
+[33mcommit a27ea6fef041f5964f8f8861a009925d7800b34a[m
+Merge: f7131ae 2478adf
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 10 19:19:54 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit f7131aea3f3a91b47d16cabb1e49e8804feab635[m
+Merge: 3e9130a 36260f9
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 10 19:18:02 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 2478adfde18ec302e6d3fa04cc0e7f2d693f589f[m
+Merge: 3e9130a 36260f9
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 10 19:18:02 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 3e9130ad5b85424a0bd69c1feb8dce74d42071b6[m
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 10 19:08:28 2017 +0800
+
+    体系结构设计逻辑模型
+
+[33mcommit f792ada120c8f8ba4d0c9cce2761ec04624fad8f[m
+Merge: 75930d8 4ea50b5
+Author: Blumonilr <458727969@qq.com>
+Date:   Tue Oct 10 19:10:06 2017 +0800
+
+    push
+
+[33mcommit 36260f996f858f4166664a9128f4cee7b40ecb10[m
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 10 19:08:28 2017 +0800
+
+    体系结构设计逻辑模型
+
+[33mcommit 4ea50b5a1f612206cebac90be186c961f90fc525[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Tue Oct 10 19:07:39 2017 +0800
+
+    push
+
+[33mcommit 75930d891f0310a20752674a52cc1084ee6068bf[m
+Merge: 8a43f2b 059296f
+Author: Blumonilr <458727969@qq.com>
+Date:   Tue Oct 10 18:54:02 2017 +0800
+
+    Merge branch 'master' into WuLinyang
+
+[33mcommit 8a43f2bc122f4565165a570620a351a4382bbb18[m
+Merge: 1143b10 145c113
+Author: Blumonilr <458727969@qq.com>
+Date:   Tue Oct 10 18:51:49 2017 +0800
+
+    Merge branch 'master' of http://101.37.19.32:10080/161250103/ManageSystem into WuLinyang
+
+[33mcommit 059296fff1c14f0c8d2416120fd1e58c01d542a7[m
+Merge: 6458e9f 145c113
+Author: Blumonilr <458727969@qq.com>
+Date:   Tue Oct 10 18:51:30 2017 +0800
+
+    Merge branch 'master' of http://101.37.19.32:10080/161250103/ManageSystem
+
+[33mcommit 223c9694edaedffb44849bc5e29ed3cc1b697707[m
+Merge: 54ea302 145c113
+Author: Unknown <1767855130@qq.com>
+Date:   Tue Oct 10 10:52:19 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 54ea302f37af7be6412f3dde4e2d043638a370dc[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 9 23:39:33 2017 +0800
+
+    体系结构设计草稿
+
+[33mcommit 145c1138abee47fdb85fb572a9d1362717995c1b[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 9 23:39:33 2017 +0800
+
+    体系结构设计草稿
+
+[33mcommit 73b8a6522dbd5da7395f364ec9f0e78bd8ee728b[m
+Merge: 5e56542 5a365a1
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 9 23:38:45 2017 +0800
+
+    Merge branch 'jbs'
+
+[33mcommit 5a365a130326cebf82d793cafdecef5345e0e7d1[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 9 23:10:16 2017 +0800
+
+    功能与逻辑包
+
+[33mcommit 865f8ca2a86b1ff0ec9505f640f375fbd73099d6[m
+Merge: 1bc55d9 5e56542
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 9 23:08:15 2017 +0800
+
+    Merge branch 'master' of http://101.37.19.32:10080/161250103/ManageSystem into JinBingShu
+
+[33mcommit 5e56542dadaa683f8fa0409638c3e5d35ddfaa5f[m
+Author: 161250103 <1767855130@qq.com>
+Date:   Mon Oct 9 18:43:54 2017 +0800
+
+    补回莫名消失的图片
+
+[33mcommit 1bc55d901f4a63027ba673b9aaf86fbac51a97cc[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 2 21:26:08 2017 +0800
+
+    填写好了
+
+[33mcommit c276f10f93540d1692e18d5729d5df8f335d0b15[m
+Merge: 7e61a9c e3ce1c9
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 2 20:48:43 2017 +0800
+
+    Merge remote-tracking branch 'origin/JinBingShu'
+
+[33mcommit 1143b109ea3387250cb5062e98a7a8618e6f8d39[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Mon Oct 2 20:48:41 2017 +0800
+
+    最终修改
+
+[33mcommit 7e61a9cf8916e046c7b426ad65c2cbad1df5f018[m
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 2 19:49:32 2017 +0800
+
+    qyc and wyb's judge data
+
+[33mcommit e3ce1c99ec90ee51dbc7c488af407fce898c8255[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 2 20:38:26 2017 +0800
+
+    用例12的功能点测度完成
+
+[33mcommit 9c67a323b22b3fd5d29ca372cd140a707b8e29ce[m
+Author: 161250050 <161250050@mail.smal.nju.edu.cn>
+Date:   Mon Oct 2 16:05:03 2017 +0800
+
+    度量数据数好了，用例文档用例一有改动
+
+[33mcommit cfc14c70a821de9e99649f35bf1659052f366988[m
+Author: Blumonilr <458727969@qq.com>
+Date:   Mon Oct 2 14:11:46 2017 +0800
+
+    用例7/8的度量数据
+
+[33mcommit 65e5d25797dc37741bdb8c56d201c77f61279d87[m
+Merge: ef926d0 1721b49
+Author: Unknown <1767855130@qq.com>
+Date:   Mon Oct 2 09:30:30 2017 +0800
+
+    Merge remote-tracking branch 'origin/Wangyibo'
+
+[33mcommit 1721b49fcdbb95bb3ed663d64f9dc04532bcab3e[m
+Merge: 63f7482 ef926d0
+Author: MIKASA-MSI\Mikasa <840326461@qq.com>
+Date:   Mon Oct 2 01:17:32 2017 +0800
+
+    Merge branch 'master' of http://101.37.19.32:10080/161250103/ManageSystem
+
+[33mcommit 63f748299f8039ca7c9809725c2b0e586f7fad58[m
+Author: M

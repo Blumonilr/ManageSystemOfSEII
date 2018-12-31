@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="724.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.financeui.UnrevisedReceiptController">
+   <children>
+      <ScrollPane fx:id="tablePane" layoutX="49.0" layoutY="62.0" prefHeight="548.0" prefWidth="900.0" />
+      <Label layoutX="40.0" layoutY="23.0" text="待审批单据">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="search" layoutX="867.0" layoutY="624.0" prefHeight="53.0" prefWidth="52.0" stylesheets="@../util/unrevisereceipt.css" text=" " />
+      <Label layoutX="915.0" layoutY="667.0" text="查看" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.saleui.GiftReceiptUIController">
+   <children>
+      <Label layoutX="27.0" layoutY="22.0" prefHeight="45.0" prefWidth="107.0" text="赠送单" textFill="#232abf" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Label layoutX="27.0" layoutY="82.0" text="操作员：">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="27.0" layoutY="123.0" text="赠品清单：">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <VBox fx:id="box" layoutX="36.0" layoutY="158.0" prefHeight="425.0" prefWidth="337.0" />
+      <JFXTextField fx:id="operatorId" editable="false" layoutX="118.0" layoutY="77.0" prefHeight="30.0" prefWidth="222.0" />
+      <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="182.0" layoutY="592.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/style_2/选中.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="222.0" layoutY="601.0" text="确定" />
+      <JFXButton layoutX="177.0" layoutY="589.0" prefHeight="45.0" prefWidth="46.0" text=" " />
+   </children>
+</AnchorPane>

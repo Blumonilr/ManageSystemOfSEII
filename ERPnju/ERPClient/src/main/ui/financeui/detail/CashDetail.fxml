@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="724.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.financeui.detail.CashDetailController">
+   <children>
+      <Label alignment="TOP_LEFT" layoutX="34.0" layoutY="7.0" prefHeight="46.0" prefWidth="133.0" text="现金费用单" textFill="#053896">
+         <font>
+            <Font name="Microsoft YaHei" size="25.0" />
+         </font>
+      </Label>
+      <Line endX="995.0" fill="#e1e2e5" layoutY="50.0" stroke="#c4c5c9" strokeWidth="5.0" />
+      <AnchorPane layoutY="53.0" prefHeight="672.0" prefWidth="998.0">
+         <children>
+            <ScrollPane layoutX="20.0" layoutY="94.0" prefHeight="508.0" prefWidth="859.0">
+               <content>
+                  <TableView fx:id="table" editable="true" prefHeight="686.0" prefWidth="858.0">
+                     <columns>
+                        <TableColumn fx:id="itemNameCol" editable="false" prefWidth="121.0" text="条目名" />
+                        <TableColumn fx:id="amountCol" editable="false" prefWidth="124.0" text="金额" />
+                        <TableColumn fx:id="noteCol" editable="false" prefWidth="599.0" text="备注" />
+                     </columns>
+                  </TableView>
+               </content>
+            </ScrollPane>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="427.0" layoutY="25.0" prefHeight="46.0" prefWidth="81.0" text="操作员:">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="operator" layoutX="518.0" layoutY="30.0" prefHeight="39.0" prefWidth="117.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="656.0" layoutY="24.0" prefHeight="46.0" prefWidth="98.0" text="银行账户:">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="754.0" layoutY="605.0" prefHeight="46.0" prefWidth="81.0" text="总额:">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalAmount" layoutX="827.0" layoutY="609.0" prefHeight="39.0" prefWidth="157.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="account" layoutX="764.0" layoutY="28.0" prefHeight="39.0" prefWidth="169.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="44.0" layoutY="26.0" prefHeight="46.0" prefWidth="108.0" text="单据编号:">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="id" layoutX="152.0" layoutY="30.0" prefHeight="39.0" prefWidth="236.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

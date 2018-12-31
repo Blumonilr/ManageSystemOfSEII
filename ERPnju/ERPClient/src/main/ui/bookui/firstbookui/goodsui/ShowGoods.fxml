@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.bookui.firstbookui.goodsui.ShowGoodsController">
+   <children>
+      <Label layoutX="33.0" layoutY="39.0" text="商品名称" />
+      <Label layoutX="35.0" layoutY="89.0" text="商品ID" />
+      <Label layoutX="291.0" layoutY="38.0" text="商品类别" />
+      <Label layoutX="291.0" layoutY="90.0" text="类别ID" />
+      <Label layoutX="35.0" layoutY="147.0" text="商品型号" />
+      <Label layoutX="291.0" layoutY="146.0" text="入库日期" />
+      <Label layoutX="35.0" layoutY="200.0" text="进价" />
+      <Label layoutX="291.0" layoutY="198.0" text="最近进价" />
+      <Label layoutX="33.0" layoutY="254.0" text="售价" />
+      <Label layoutX="291.0" layoutY="254.0" text="最近售价" />
+      <Label fx:id="name" layoutX="120.0" layoutY="39.0" />
+      <Label fx:id="id" layoutX="120.0" layoutY="89.0" wrapText="true" />
+      <Label layoutX="120.0" layoutY="147.0" fx:id="xh" />
+      <Label fx:id="className" layoutX="415.0" layoutY="39.0" />
+      <Label fx:id="classId" layoutX="415.0" layoutY="90.0" />
+      <Label fx:id="day" layoutX="415.0" layoutY="147.0" />
+      <Label layoutX="33.0" layoutY="308.0" text="库存数量" />
+      <Label layoutX="291.0" layoutY="308.0" text="警戒值" />
+      <Button layoutX="235.0" layoutY="350.0" mnemonicParsing="false" onAction="#onOK" prefHeight="36.0" prefWidth="86.0" stylesheets="@button.css" text="确定" />
+      <Label fx:id="outPrice" layoutX="134.0" layoutY="254.0" />
+      <Label fx:id="inPrice" layoutX="134.0" layoutY="200.0" />
+      <Label fx:id="stockNum" layoutX="134.0" layoutY="309.0" />
+      <Label fx:id="latestip" layoutX="438.0" layoutY="200.0" />
+      <Label fx:id="latestop" layoutX="438.0" layoutY="254.0" />
+      <Label fx:id="alarmNum" layoutX="438.0" layoutY="309.0" />
+      <Label layoutX="5.0" layoutY="4.0" text="商品信息" textFill="#6231cd" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

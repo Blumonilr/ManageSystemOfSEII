@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="724.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.accountui.AccountsUIController">
+   <children>
+      <Label alignment="TOP_LEFT" layoutX="34.0" layoutY="7.0" prefHeight="46.0" prefWidth="158.0" text="银行账户管理" textFill="#053896">
+         <font>
+            <Font name="Microsoft YaHei" size="25.0" />
+         </font>
+      </Label>
+      <Line endX="995.0" fill="#e1e2e5" layoutY="50.0" stroke="#c4c5c9" strokeWidth="5.0" />
+      <AnchorPane layoutY="53.0" prefHeight="588.0" prefWidth="998.0">
+         <children>
+            <ScrollPane layoutX="22.0" layoutY="104.0" prefHeight="381.0" prefWidth="859.0">
+               <content>
+                  <TableView fx:id="table" editable="true" prefHeight="619.0" prefWidth="858.0">
+                     <columns>
+                        <TableColumn fx:id="nickNameCol" editable="false" prefWidth="235.0" text="名称" />
+                        <TableColumn fx:id="idCol" editable="false" prefWidth="438.0" text="帐号" />
+                        <TableColumn fx:id="amountCol" editable="false" prefWidth="182.0" text="金额" />
+                     </columns>
+                  </TableView>
+               </content>
+            </ScrollPane>
+            <Button fx:id="delete" layoutX="899.0" layoutY="217.0" mnemonicParsing="false" onAction="#onDelete" prefHeight="39.0" prefWidth="77.0" text="删除">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="add" layoutX="712.0" layoutY="560.0" mnemonicParsing="false" onAction="#onAdd" prefHeight="39.0" prefWidth="77.0" text="添加">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="77.0" layoutY="501.0" prefHeight="46.0" prefWidth="81.0" text="名称:">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="351.0" layoutY="556.0" prefHeight="46.0" prefWidth="81.0" text="金额:">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nickNameField" layoutX="158.0" layoutY="505.0" prefHeight="39.0" prefWidth="176.0" promptText="请输入名称">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="amountField" layoutX="432.0" layoutY="560.0" prefHeight="39.0" prefWidth="183.0" promptText="请输入金额">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="searchField" layoutX="189.0" layoutY="37.0" prefHeight="39.0" prefWidth="183.0" promptText="请输入名称">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="search" layoutX="431.0" layoutY="37.0" mnemonicParsing="false" onAction="#onSearch" prefHeight="39.0" prefWidth="77.0" text="搜索">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="351.0" layoutY="498.0" prefHeight="46.0" prefWidth="81.0" text="帐号:">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="idField" layoutX="432.0" layoutY="502.0" prefHeight="39.0" prefWidth="384.0" promptText="请输入帐号">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="modify" layoutX="899.0" layoutY="308.0" mnemonicParsing="false" onAction="#onModify" prefHeight="39.0" prefWidth="77.0" text="修改">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="77.0" layoutY="556.0" prefHeight="46.0" prefWidth="81.0" text="密码:">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="passwordField" layoutX="158.0" layoutY="560.0" prefHeight="39.0" prefWidth="176.0" promptText="请输入密码">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="654.0" prefHeight="70.0" prefWidth="998.0">
+         <children>
+            <Button fx:id="ok" layoutX="272.0" layoutY="20.0" mnemonicParsing="false" onAction="#onRet" prefHeight="31.0" prefWidth="117.0" text="确定">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="ret" layoutX="650.0" layoutY="20.0" mnemonicParsing="false" onAction="#onRet" prefHeight="31.0" prefWidth="117.0" text="返回">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

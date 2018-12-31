@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="main.ui.saleui.StrategyDetailUIController">
+   <children>
+      <Label layoutX="14.0" layoutY="26.0" text="策略种类：">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="69.0" text="开始时间：">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="109.0" text="结束时间：">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="153.0" text="条件：">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="247.0" text="详细内容：">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="type" editable="false" layoutX="127.0" layoutY="21.0" />
+      <JFXTextField fx:id="startTime" editable="false" layoutX="127.0" layoutY="62.0" />
+      <JFXTextField fx:id="endTime" editable="false" layoutX="128.0" layoutY="103.0" />
+      <JFXTextField fx:id="condition" editable="false" layoutX="130.0" layoutY="146.0" />
+      <TextArea fx:id="content" editable="false" layoutX="56.0" layoutY="287.0" prefHeight="229.0" prefWidth="288.0" />
+   </children>
+</AnchorPane>

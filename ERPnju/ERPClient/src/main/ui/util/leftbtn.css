@@ -1,0 +1,14 @@
+.button{
+    -fx-background-color:  #cfcfcf;
+    -fx-border-color:#073763;
+    -fx-pref-height:46;
+}
+
+.button:hover{
+    -fx-background-color: #9da0e3;
+}
+
+.button:pressed{
+    -fx-background-color: #8297d5;
+}
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:id="root" prefHeight="722.0" prefWidth="1002.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.bookui.firstbookui.classui.ClassUIController">
+   <children>
+      <TreeView fx:id="treeView" layoutX="92.0" layoutY="261.0" prefHeight="722.0" prefWidth="1002.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+   </children>
+</AnchorPane>

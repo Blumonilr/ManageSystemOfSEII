@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="724.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ui.reviseui.ModifyCashController">
+   <children>
+      <Label alignment="TOP_LEFT" layoutX="34.0" layoutY="7.0" prefHeight="46.0" prefWidth="133.0" text="现金费用单" textFill="#053896">
+         <font>
+            <Font name="Microsoft YaHei" size="25.0" />
+         </font>
+      </Label>
+      <Line endX="995.0" fill="#e1e2e5" layoutY="50.0" stroke="#c4c5c9" strokeWidth="5.0" />
+      <AnchorPane fx:id="buttons" layoutY="648.0" prefHeight="71.0" prefWidth="998.0">
+         <children>
+            <Button fx:id="modify" layoutX="117.0" layoutY="20.0" mnemonicParsing="false" onAction="#modify" prefHeight="31.0" prefWidth="117.0" text="确认修改">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="clear" layoutX="721.0" layoutY="20.0" mnemonicParsing="false" onAction="#onClear" prefHeight="31.0" prefWidth="117.0" text="清空">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ScrollPane hbarPolicy="NEVER" layoutY="53.0" prefHeight="595.0" prefWidth="998.0" vbarPolicy="ALWAYS">
+         <content>
+            <AnchorPane prefHeight="800.0" prefWidth="998.0">
+               <children>
+                  <ScrollPane layoutX="20.0" layoutY="94.0" prefHeight="381.0" prefWidth="859.0">
+                     <content>
+                        <TableView fx:id="table" editable="true" prefHeight="538.0" prefWidth="858.0">
+                           <columns>
+                              <TableColumn fx:id="itemNameCol" prefWidth="121.0" text="条目名" />
+                              <TableColumn fx:id="amountCol" prefWidth="124.0" text="金额" />
+                              <TableColumn fx:id="noteCol" prefWidth="599.0" text="备注" />
+                           </columns>
+                        </TableView>
+                     </content>
+                  </ScrollPane>
+                  <Label fx:id="total" layoutX="504.0" layoutY="632.0" prefHeight="23.0" prefWidth="126.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="23.0" prefHeight="46.0" prefWidth="81.0" text="操作员:">
+                     <font>
+                        <Font name="Microsoft YaHei" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="operator" layoutX="163.0" layoutY="27.0" prefHeight="39.0" prefWidth="232.0">
+                     <font>
+                        <Font name="Microsoft YaHei" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="449.0" layoutY="24.0" prefHeight="46.0" prefWidth="98.0" text="银行账户:">
+                     <font>
+                        <Font name="Microsoft YaHei" size="20.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="accounts" layoutX="557.0" layoutY="36.0" prefHeight="23.0" prefWidth="170.0" />
+                  <Button fx:id="remove" layoutX="897.0" layoutY="162.0" mnemonicParsing="false" onAction="#onRemove" prefHeight="39.0" prefWidth="77.0" text="移除">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="add" layoutX="802.0" layoutY="594.0" mnemonicParsing="false" onAction="#onAdd" prefHeight="39.0" prefWidth="77.0" text="添加">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="543.0" prefHeight="46.0" prefWidth="81.0" text="条目名:">
+                     <font>
+                        <Font name="Microsoft YaHei" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="82.0" layoutY="619.0" prefHeight="46.0" prefWidth="81.0" text="金额:">
+                     <font>
+                        <Font name="Microsoft YaHei" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="369.0" layoutY="473.0" prefHeight="46.0" prefWidth="81.0" text="备注:">
+                     <font>
+                        <Font name="Microsoft YaHei" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextArea fx:id="note" layoutX="387.0" layoutY="519.0" prefHeight="174.0" prefWidth="359.0" promptText="请填写备注，若无备注则填无" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
+                  <TextField fx:id="itemName" layoutX="153.0" layoutY="547.0" prefHeight="39.0" prefWidth="183.0" promptText="请输入条目名">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="amount" layoutX="153.0" layoutY="624.0" prefHeight="39.0" prefWidth="183.0" promptText="请输入金额">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="746.0" layoutY="473.0" prefHeight="46.0" prefWidth="81.0" text="总额:">
+                     <font>
+                        <Font name="Microsoft YaHei" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="totalAmount" layoutX="820.0" layoutY="477.0" prefHeight="39.0" prefWidth="157.0">
+                     <font>
+                        <Font name="Microsoft YaHei" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
